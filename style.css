@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    width: 50vw;
+}
+
+body {
+    display: flex;
+    flex-flow: row;
+}
+
+.wrapper {
+    padding: 0.5em;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+}
+
+.color_box {
+    height: 100px;
+    width: 100px;
+    margin: 1em;
+    cursor: pointer;
+}
+
+#selected {
+    grid-row: 4;
+    height: 100px;
+    width: 100px;
+    margin: 1em;
+}
+
+.first_wrapper, .second_wrapper {
+    grid-row: 2;
+}
+
+#second_title {
+    grid-row: 3;
+}
+
+h1 {
+    margin: 0;
+}
